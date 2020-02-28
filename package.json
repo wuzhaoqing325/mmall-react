@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev":"webpack-dev-server",
-    "dist":"webpack"
+    "dev": "webpack-dev-server",
+    "dist": "webpack"
   },
   "repository": {
     "type": "git",
@@ -35,9 +35,9 @@
     "webpack-dev-server": "^3.10.3"
   },
   "dependencies": {
-    "font-awesome": "^4.7.0",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
+    "react-router-dom": "^5.1.2",
     "webpack": "^4.41.6"
   }
 }
