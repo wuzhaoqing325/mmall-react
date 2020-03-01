@@ -10,14 +10,14 @@ class NavTop extends React.Component{
 	constructor(props){
 		super(props);
         this.state = {
-            username:_mm.getStorage('userInfo').username
+            username:_mm.getStorage('userInfo').username || ''
         }
 	}
     // 退出登录
     onLogout(){
         _user.logout().then(res => {
             _mm.removeStorage('userInfo');
-            window.location.herf = '/login';
+            window.location.href = '/login';
         }, errMsg => {
             _mm.errorTips(errMsg);
         })

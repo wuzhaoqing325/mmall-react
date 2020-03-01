@@ -35,10 +35,13 @@
     "webpack-dev-server": "^3.10.3"
   },
   "dependencies": {
+    "prop-types": "^15.7.2",
     "rc-pagination": "^2.0.1",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
+    "react-fileupload": "^2.4.0",
     "react-router-dom": "^5.1.2",
+    "simditor": "^2.3.6",
     "webpack": "^4.41.6"
   }
 }
